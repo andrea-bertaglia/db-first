@@ -1,0 +1,24 @@
+--------------------
+|       CARS       |
+--------------------
+
+id                  - UNSIGNED INT - PRIMARY_KEY (NOT NULL, UNIQUE) - AUTO_INCREMENT
+brand               - VARCHAR(20) - NOT NULL
+model               - VARCHAR(100) - NOT NULL
+engine              - VARCHAR(10) - NOT NULL
+year                - YEAR - NOT NULL
+color               - VARCHAR(20) - NOT NULL
+transmission        - VARCHAR(10)
+displacement        - VARCHAR(10)
+seats               - TINYINT
+n_door              - TINYINT
+dimension_length_cm - SMALLINT
+dimension_width_c   - SMALLINT
+dimension_height_cm - SMALLINT
+weight_g            - SMALLINT
+km                  - MEDIUMINT - NOT NULL
+price               - DECIMAL (8, 2) - NOT NULL      es. 999999 , 99
+discount_price      - DECIMAL (8, 2)                 es. 999999 , 99
+available           - TINYINT - NOT NULL
+img_path            - TEXT - DEFAULT("img/placeholder.jpg")
+
